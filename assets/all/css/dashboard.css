@@ -1,0 +1,50 @@
+.dashboard-widget{
+	margin-left: -48px;
+	margin-top: -50px;
+	width: 111%;
+	background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@media (max-width: 791.98px){
+	.dashboard-widget{
+	margin-left: 0px;
+	margin-top: -10px;
+	width: 100%;
+}
+}
+.dash-ribbon{
+	background-color: white;
+	border-radius: 10px;
+	width: 230px;
+}
+.top-left .amount{
+	font-size: 22px;
+	color: black;
+	font-weight: 600;
+	margin-top: -15px;
+}
+.top-left .number{
+}
+.dash-bottom{
+	display: flex;
+	justify-content: center;
+}
+.dash-line{
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px dashed #ddd;
+}
+.View{
+	width: auto;
+}
+.d-1{}
+.d-2{}
+.d-3{
+}
+.d-4{
+
+}
+.dash-item{
+	color: grey;
+}
